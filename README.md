@@ -1,6 +1,6 @@
-# Tip Calculator App
+# Tip Calculator
 
-This is a **Tip Calculator App** built using React, TypeScript, and Vite. The app calculates the **tip per person** and **total bill per person** based on the following inputs:
+This is a **Tip Calculator** built using React, TypeScript, and Vite. The app calculates the **tip per person** and **total bill per person** based on the following inputs:
 
 - Bill Amount
 - Tip Percentage
