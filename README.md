@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+# Tip Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Tip Calculator App** built using React, TypeScript, and Vite. The app calculates the **tip per person** and **total bill per person** based on the following inputs:
 
-Currently, two official plugins are available:
+- Bill Amount
+- Tip Percentage
+- Number of People
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project serves as a learning exercise to practice React and TypeScript as a beginner.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Enter a bill amount, specify a tip percentage, and input the number of people sharing the bill.
+- View the calculated results for:
+  - **Tip per Person**
+  - **Total Bill per Person**
+- Simple and user-friendly interface designed for easy use.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static typing for safer and more maintainable code.
+- **Vite**: A fast development build tool and dev server.
