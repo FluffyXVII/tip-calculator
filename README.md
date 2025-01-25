@@ -6,7 +6,7 @@ This is a **Tip Calculator** built using React, TypeScript, MUI (Material UI) an
 - Tip Percentage
 - Number of People
 
-This project serves as a learning exercise to practice React, TypeScript, MUI and Vite as a beginner.
+This project was a learning exercise I am using to practice React, TypeScript, MUI and Vite as a beginner.
 
 ## Features
 
